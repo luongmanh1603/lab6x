@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="/image/logo.svg" alt="">
+            </div>
+            <div class="image"></div>
+            <div class="text">Start for free & get </br> attractive offer today !</div>
+        </div>
+        <form action="" id="form">
+            <div>
+                <div class="social">
+                    <div class="tittle">
+                        Get Started
+                    </div>
+                    <div class="question">
+                        Already have an account? </br>
+                        <span>Sign In</span>
+                    </div>
+                    <div class="btn">
+                        <div class="btn1">
+                        <img src="" />
+                        Sign up
+                        </div>
+                        <div class="btn2">
+                        <img src="" />
+                        Sign up
+                        </div>
+                    </div>
+                </div>
+                <div class="or">Or</div>
+            </div>
+            <!--Dang Ki-->
+            <!-- User name input-->
+            <div>
+                <label for="usernam">User Name</label>
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" name="username" placeholder="jame bond">
+                <i class="fas fa-check-circle success-icon"></i>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!--Email input-->
+            <div>
+                <label for="email">Email</label>
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="jamebond@gmail.com">
+                <i class="fas fa-check-circle success-icon"></i>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!--Password-->
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" name="password" placeholder="password">
+                <i class="fas fa-check-circle success-icon"></i>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="/main.js"></script>
+</html>
